@@ -44,6 +44,7 @@ h1, h1 a, h1 a:hover {
 
 .home {
   background-image: image-url('entry.jpg');
+  background-position: top right;
 }
 
 .event {
@@ -60,6 +61,7 @@ h1, h1 a, h1 a:hover {
 
 .photo-1 {
   background-image: image-url('entry.jpg');
+  background-position: top right;
 }
 
 .photo-2 {
@@ -68,4 +70,5 @@ h1, h1 a, h1 a:hover {
 
 .photo-3 {
   background-image: image-url('stairs.jpg');
+  background-position: center;
 }
