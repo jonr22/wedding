@@ -1,4 +1,4 @@
 $(document).ready ->
   $('#fullpage').fullpage
-    resize: true
+    resize: false
     navigation: true

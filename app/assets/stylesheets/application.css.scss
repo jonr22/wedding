@@ -7,9 +7,17 @@
 @import "variables";
 @import "bootstrap";
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 h1, h2 {
   font-family: 'Dancing Script';
   text-align: center;
+}
+
+h1, h1 a, h1 a:hover {
+  color: $purple;
 }
 
 .well {
@@ -18,19 +26,17 @@ h1, h2 {
   box-shadow: none;
 }
 
-// .btn-primary, .btn-primary:hover {
-//   background: none;
-//   border-width: 3px;
-//   border-color: white;
-// }
-
 .fp-controlArrow.fp-next {
   right: 50px;
 }
 
-// #fp-nav span, .fp-slidesNav span {
-//     border: 1px solid #fff;
-// }
+#fp-nav span, .fp-slidesNav span {
+    border: 1px solid $purple;
+}
+
+#fp-nav li .active span, .fp-slidesNav .active span {
+  background: $purple;
+}
 
 #fullpage .section, #fullpage .slide {
   background-size: cover;
