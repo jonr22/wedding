@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="ROBOTS" content="NOODP" />
+  <meta name="viewport" content="initial-scale=1" />
+
+  <!-- Set Keywords & Description -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+
+  <title><%= title %></title>
+
+  <link href='http://fonts.googleapis.com/css?family=Dancing+Script'
+        rel='stylesheet'
+        type='text/css'>
+
+  <%= stylesheet_link_tag    "application", media: "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+
+<body>
+  <%# <%= render 'layouts/header' %1> %>
+  <%= render "flashes" -%>
+  <%= yield %>
+  <%= render 'layouts/footer' %>
+</body>
+</html>

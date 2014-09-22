@@ -1,0 +1,65 @@
+/*
+*= require jquery.fullPage
+*= require_self
+*= require_tree .
+*/
+
+@import "variables";
+@import "bootstrap";
+
+h1, h2 {
+  font-family: 'Dancing Script';
+  text-align: center;
+}
+
+.well {
+  background-color: rgba(245, 245, 245, .8);
+  border: none;
+  box-shadow: none;
+}
+
+// .btn-primary, .btn-primary:hover {
+//   background: none;
+//   border-width: 3px;
+//   border-color: white;
+// }
+
+.fp-controlArrow.fp-next {
+  right: 50px;
+}
+
+// #fp-nav span, .fp-slidesNav span {
+//     border: 1px solid #fff;
+// }
+
+#fullpage .section, #fullpage .slide {
+  background-size: cover;
+}
+
+.home {
+  background-image: image-url('entry.jpg');
+}
+
+.event {
+  background-image: image-url('waterfront.jpg');
+}
+
+.venue {
+  background-image: image-url('venue.jpg');
+}
+
+.footer {
+  background-image: image-url('bird.jpg');
+}
+
+.photo-1 {
+  background-image: image-url('entry.jpg');
+}
+
+.photo-2 {
+  background-image: image-url('toes.jpg');
+}
+
+.photo-3 {
+  background-image: image-url('stairs.jpg');
+}
