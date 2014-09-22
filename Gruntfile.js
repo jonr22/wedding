@@ -216,7 +216,21 @@ module.exports = function (grunt) {
       app: {
         ignorePath: /^\/|\.\.\//,
         src: ['<%= config.app %>/index.html'],
-        exclude: ['bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js']
+        exclude: [
+          'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js',
+          'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js',
+          'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js',
+          'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js',
+          'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js',
+          'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js',
+          'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js',
+          'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js',
+          'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js',
+          'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js',
+          'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js',
+          'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js',
+          'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js'
+        ]
       },
       sass: {
         src: ['<%= config.app %>/styles/{,*/}*.{scss,sass}'],
